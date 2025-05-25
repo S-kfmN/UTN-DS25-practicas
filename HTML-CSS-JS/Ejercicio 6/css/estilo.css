@@ -1,0 +1,156 @@
+/* RESET GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 60px;
+}
+
+/* CABECERA */
+header {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 80px;
+    vertical-align: middle;
+}
+
+.logo h1 {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+    font-size: 32px;
+}
+
+/* MENÚ */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* SECCIONES DE TEMAS */
+.tema, section {
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.libro {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.libro img {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.libro article {
+    flex: 1;
+}
+
+.tema p, article p {
+    margin-bottom: 10px;
+}
+
+/* FORMULARIOS */
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1b5e20;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 40px;
+}

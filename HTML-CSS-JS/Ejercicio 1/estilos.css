@@ -1,0 +1,44 @@
+/* Fondo general y fuente */
+body {
+    background-color: white;
+    font-family: Arial;
+    margin: 20px;
+    color: black;
+}
+
+/* Títulos principales */
+h1 {
+    color: #ff4800;
+    font-size: 28px;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+
+/* Subtítulos */
+h2 {
+    color: lightblue;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Enlaces */
+a {
+    color: #1c61b0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Listas */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Separación visual */
+hr {
+    margin-top: 20px;
+    border: 1px solid red;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Librería El Saber</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+            <h1>Librería El Saber</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="ciencia.html">Ciencia Ficción</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="tecnologia.html">Tecnología</a></li>
+            <li><a href="fantasia.html">Fantasía</a></li>
+            <li><a href="registro.html">Registración</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    
+    <main>
+        <h2>Formulario de Registración</h2>
+        <form action="#" method="post">
+            <label>Nombre:<br>
+                <input type="text" name="nombre" required>
+            </label><br><br>
+
+            <label>Apellido:<br>
+                <input type="text" name="apellido" required>
+            </label><br><br>
+
+            <label>Fecha de nacimiento:<br>
+                <input type="date" name="fecha" required>
+            </label><br><br>
+
+            <label>Correo electrónico:<br>
+                <input type="email" name="email" required>
+            </label><br><br>
+
+            <label>Teléfono:<br>
+                <input type="tel" name="telefono">
+            </label><br><br>
+
+            <label>Contraseña:<br>
+                <input type="password" name="clave" required>
+            </label><br><br>
+
+            <label>URL personal (opcional):<br>
+                <input type="url" name="web">
+            </label><br><br>
+
+            <label>Sexo:<br>
+                <input type="radio" name="sexo" value="M"> Masculino
+                <input type="radio" name="sexo" value="F"> Femenino
+                <input type="radio" name="sexo" value="O"> Otro
+            </label><br><br>
+
+            <label>Tema favorito:<br>
+                <select name="tema">
+                    <option>Ciencia Ficción</option>
+                    <option>Historia</option>
+                    <option>Tecnología</option>
+                    <option>Fantasía</option>
+                </select>
+            </label><br><br>
+
+            <input type="submit" value="Registrarse">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Librería El Saber</p>
+        <p>Instagram | Facebook | Twitter</p>
+        <p><a href="#">Términos y condiciones</a></p>
+    </footer>
+</body>
+</html>
+
