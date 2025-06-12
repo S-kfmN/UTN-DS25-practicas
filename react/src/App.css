@@ -1,0 +1,133 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(230, 224, 224);
+}
+
+/* Cabecera */
+header {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.logo img {
+    width: 180px;
+    vertical-align: middle;
+}
+
+.logo h1 {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+/* Menú */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Bloques de tema en index.html */
+.tema {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #ddd;
+}
+
+.tema img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.libro {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.libro img {
+    float: left;
+    margin-right: 15px;
+}
+
+.libro p {
+    margin: 5px 0;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+    margin: auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+input[type="submit"] {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1b5e20;
+}
+
+textarea {
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    resize: vertical;
+}
