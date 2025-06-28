@@ -3,7 +3,7 @@
 Este repositorio contiene ejercicios y prácticas desarrolladas en el marco de la materia **Desarrollo de Software** de la carrera **Ingeniería en Sistemas de Información** (UTN - 2025).
 
 ## 📁 Estructura del repositorio
-
+```plaintext
 UTN-DS25-practicas/
 ├── HTML-CSS-JS/
 │ ├── Ejercicio 1
@@ -17,7 +17,7 @@ UTN-DS25-practicas/
 ├── react-ui-lib/
 ├── react-ui-lib 28-06/
 └── README.md
-
+```
 ### 🧩 Descripción de carpetas
 
 - **HTML-CSS-JS/**  
